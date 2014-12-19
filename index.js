@@ -15,7 +15,7 @@ mongodb.init({
         }
     },
     // Additionnal options
-    fork: true,         // force the server to run in a separate process (default: false)
+    fork: true         // force the server to run in a separate process (default: false)
     // fork is useful to deal with async hell (client and server in same main-loop)
 });
 
