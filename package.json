@@ -1,0 +1,25 @@
+{
+  "name": "dynodb",
+  "description": "An experiment to get a MongoDB like interface in front of DynamoDB",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "daniel.joppi",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "mongodb",
+    "dynamodb"
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.1.4",
+    "bson": "^0.2.16",
+    "log4js": "^0.6.21",
+    "net": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rospogeo/dynodb.git"
+  },
+  "preferGlobal": true
+}
