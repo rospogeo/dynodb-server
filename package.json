@@ -1,25 +1,41 @@
 {
-  "name": "dynodb",
+  "name": "dynodb-server",
   "description": "An experiment to get a MongoDB like interface in front of DynamoDB",
   "version": "0.0.1",
   "main": "index.js",
-  "author": "daniel.joppi",
+  "author": {
+    "name": "Daniel Henrique Joppi",
+    "email": "daniel.joppi@gmail.com"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "keywords": [
-    "mongodb",
-    "dynamodb"
-  ],
   "dependencies": {
     "aws-sdk": "^2.1.4",
     "bson": "^0.2.16",
+    "dynodb-client": "git://github.com/rospogeo/dynodb-client.git",
     "log4js": "^0.6.21",
     "net": "^1.0.2"
   },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-env": "^0.4.1",
+    "grunt-mean": "~0.2.1",
+    "grunt-nodemon": "^0.3.0",
+    "load-grunt-tasks": "^0.6.0",
+    "mongoose": "^3.9.7",
+    "time-grunt": "^1.0.0"
+  },
   "repository": {
     "type": "git",
-    "url": "http://github.com/rospogeo/dynodb.git"
+    "url": "http://github.com/rospogeo/dynodb-server.git"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "keywords": [
+    "mongodb",
+    "dynamodb"
+  ]
 }
